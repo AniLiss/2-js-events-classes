@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Application</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="frame">
+
+<form id="form" onsubmit="return false">
+
+    <input id="num" type="number" min="10" max="50" value="10">
+
+    <button type="button" id="startBtn" title="Start">Старт</button>
+    <button type="button" id="stopBtn" title="Stop">Стоп</button>
+</form>
+<div id="my-object"></div>
 
 <script src="app.js"></script>
+<script>
+    Application();
+</script>
 </body>
 </html>

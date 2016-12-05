@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    width: 1000px;
+    border: 1px solid #808080;
+}
+
+#my-object {
+    width: 80px;
+    height: 80px;
+    background: #fcf6c2;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    transition: 0.5s;
+    border-top: 4px solid red;
+}
+
+#num {
+    padding: 7px;
+    font-size: 16px;
+    margin-bottom: -2px;
+}
+
+button {
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    box-shadow: 2px 2px 3px #909090;
+}
+
+button:active {
+    box-shadow: 1px 1px 3px #909090;
+    outline: none;
+}
+
+button[title="Start"] {
+    background: #8afccb;
+}
+
+button[title="Stop"] {
+    margin-left: 0;
+    background: #fc8aad;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+}
+
+form {
+    margin: 20px;
+}
